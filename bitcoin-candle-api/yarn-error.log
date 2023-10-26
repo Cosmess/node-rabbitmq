@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\cosme\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js init
+
+PATH: 
+  C:\Program Files\Java\jdk-21.0.1;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\ProgramData\ComposerSetup\bin;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Users\cosme\AppData\Local\Android\Sdk\emulator;C:\Users\cosme\AppData\Local\Android\Sdk\tools;C:\Users\cosme\AppData\Local\Android\Sdk\tools\bin;C:\Users\cosme\AppData\Local\Android\Sdk\platform-tools;C:\flutter\bin;C:\Windows\System32;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Go\bin;C:\Users\cosme\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\cosme\AppData\Local\Programs\Python\Python37\;C:\Ruby32-x64\bin;C:\Users\cosme\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\cosme\AppData\Local\Programs\Python\Python311\;C:\Users\cosme\AppData\Local\Microsoft\WindowsApps;C:\Users\cosme\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\cosme\AppData\Local\GitHubDesktop\bin;C:\laragon\bin\php\php-7.4.29-nts-Win32-vc15-x64;C:\Users\cosme\AppData\Roaming\Composer\vendor\bin;C:\Users\cosme\.dotnet\tools;C:\Users\cosme\AppData\Roaming\npm;C:\Users\cosme\go\bin;C:\Program Files\Java\apache-maven-3.9.5\bin;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.17.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (C:\Users\cosme\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:137150:13)
+      at Interface.emit (node:events:514:28)
+      at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1131:18)
+      at ReadStream.onkeypress (node:internal/readline/interface:270:20)
+      at ReadStream.emit (node:events:514:28)
+      at emitKeys (node:internal/readline/utils:357:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+      at ReadStream.emit (node:events:514:28)
+      at addChunk (node:internal/streams/readable:324:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
